@@ -9,7 +9,8 @@ int main() {
 	stack<char> s;
 	for (int i = 0; i < middle.size(); ++i)
 	{
-		if ((middle[i] <= 'Z' && middle[i] >= 'A') || (middle[i] <= 'z' && middle[i] >= 'a')) {
+		if ((middle[i] <= 'Z' && middle[i] >= 'A') || (middle[i] <= 'z' && middle[i] >= 'a')
+			|| (middle[i] >= '0' && middle[i] <= '9')) {
 			cout << middle[i];
 		} else {
 			if (s.empty() || s.top() == '(')
