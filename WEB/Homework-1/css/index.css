@@ -1,0 +1,29 @@
+li {
+	color: #880055;
+	font-size: 15px;
+}
+
+body {
+	width: 512px;
+	background-image: url("../img/back.jpg");
+	background-repeat: no-repeat;
+	background-size: 600px 800px;
+	position: absolute;
+	left: auto;
+}
+h1 {
+	text-align: center;
+	font-family: Courier;
+
+}
+
+h2 {
+	color: #8811ff; 
+}
+
+img {
+}
+
+a:link {
+	color: red;
+}
